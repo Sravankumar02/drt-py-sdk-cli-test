@@ -1,0 +1,10 @@
+toml>=0.10.2
+types-toml
+requests>=2.32.0,<3.0.0
+types-requests
+ledgercomm[hid]
+rich==13.3.4
+argcomplete==3.2.2
+
+dharitri_py_sdk_test==0.0.5
+# pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple dharitri-py-sdk-test
