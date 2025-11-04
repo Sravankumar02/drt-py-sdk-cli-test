@@ -31,7 +31,7 @@ jobs:
           pipx ensurepath
       - name: Install drtpy
         run: |
-          pipx install git+https://github.com/TerraDharitri/drt-py-sdk-cli@$BRANCH_NAME
+          pipx install git+https://github.com/TerraDharitri/drt-py-sdk-cli@main
       - name: Smoke test
         run: |
           drtpy --version
